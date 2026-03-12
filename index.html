@@ -3,40 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dom mody</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        
+        <a href="index.html"><h1>LOGO</h1></a>
         <nav>
             <ul>
-                <li><a href="#">strona glowna</a></li>
-                <li><a href="#">mezczyzna</a></li>
-                <li><a href="#">kobieta</a></li>
-                <li><a href="#">dziecko</a></li>
+                <li><a href="#">Strona główna</a></li>
+                <li><a href="#">Mężczyzna</a></li>
+                <li><a href="#">Kobieta</a></li>
+                <li><a href="#">Dziecko</a></li>
             </ul>
         </nav>
         <section>
-            <button onclick="window.location.href='logowanie.html'">zaloguj</button>
-            <button onclick="window.location.href='zarejestruj.html'">zarejestruj</button>
+            <button onClick="window.location.href='logowanie.html'">Zaloguj</button>
+            <button onClick="window.location.href='zarejestruj.html'">Zarejestruj</button>
         </section>
     </header>
     <main>
-        <a href="index.html"><h1>logo</h1></a><h1>formularz</h1>
-        <form id="formularz">
-        <label for="imie">podaj imię: </label>
-        <input type="text" id="imie" required>
-        <label for="nazwisko">podaj nazwisko: </label>
-        <input type="text" id="nazwisko" required>
-        <label for="email">podaj email</label>
-        <input type="email" name="email" id="email">
-
-        <button type="submit" id="cfel">wyślij</button>
-        </form>
+        <div id="container">
+            <section class="product">
+                <img src="./asset/nike.jpg" alt="nike" width="150px" height="150px">
+                <section class="dane">
+                    <div class="nazwa-info">
+                        <div class="nazwa">
+                        <span class="marka">Nike</span>
+                        <span class="model">airmax95</span>
+                        </div>
+                        <span class="cena">500zl</span>
+                    </div>
+                    <button class="btn-kup">kup teraz</button>
+                </section>
+            </section>
+            <section class="product">
+                <img src="./asset/adidas.jpg" alt="adidas" width="150px" height="150px">
+                   <section class="dane">
+                    <div class="nazwa-info">
+                        <div class="nazwa">
+                        <span class="marka">adidas</span>
+                        <span class="model">samba</span>
+                        </div>
+                        <span class="cena">4500zl</span>
+                    </div>
+                    <button class="btn-kup">kup teraz</button>
+                </section>
+            </section>
+            <section class="product">
+                <img src="./asset/wolczanka.jpg" alt="wolczanka" width="150px" height="150px">
+                   <section class="dane">
+                    <div class="nazwa-info">
+                        <div class="nazwa">
+                        <span class="marka">wolczanka</span>
+                        <span class="model">biala koszula</span>
+                        </div>
+                        <span class="cena">300zl</span>
+                    </div>
+                    <button class="btn-kup">kup teraz</button>
+                </section>
+            </section>
+        </div>
+     
     </main>
     <footer>
-        <p>wszelkie prawa zastrzeżone</p>
+        <p>Wszelkie prawa zastrzeżone</p>
     </footer>
     <script src="script.js"></script>
 </body>
