@@ -1,18 +1,18 @@
 [{
-    "marka": "nike",
-    "model": "airmax 95",
+    "marka": "Nike",
+    "model": "Air Max 95",
     "cena": "500 zł",
-    "obraz": "nike.jpg"
+    "obraz":"nike.jpg"
 },
 {
-    "marka": "adidas",
-    "model": "samba",
+    "marka": "Adidas",
+    "model": "Samba",
     "cena": "450 zł",
-    "obraz": "adidas.jpg"
+    "obraz":"adidas.jpg"
 },
 {
     "marka": "Wólczanka",
-    "model": "biala koszula",
-    "cena": "300 zl",
-    "obraz": "wolczanka.jpg"
+    "model": "Biała koszula we wzorki",
+    "cena": "300 zł",
+    "obraz":"wolczanka.jpg"
 }]
